@@ -1,26 +1,45 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+  --color-coral: #d7421a;
+  --color-coral-dark: #b5320f;
+  --color-sand: #fff6ee;
+  --color-ink: #1d1b19;
+  --color-muted: #5f5852;
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display-face);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-sand);
+  color: var(--color-ink);
+}
+
+/* Coral frame around the viewport, like a postcard border */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  border: 6px solid var(--color-coral);
+  pointer-events: none;
+  z-index: 60;
+}
+
+/* Vietnamese capitals stack tone marks above the letter; tight display leading makes them collide */
+html:lang(vi) .font-display {
+  line-height: 1.22;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-coral);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
 }

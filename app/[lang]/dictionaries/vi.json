@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Noezz Homestay – Homestay gần biển Đà Nẵng",
+    "description": "Homestay thân thiện, cách biển Mỹ Khê 5 phút. Phòng dorm, phòng đôi và phòng gia đình."
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "rooms": "Phòng",
+    "experiences": "Trải nghiệm",
+    "contact": "Liên hệ",
+    "book": "Đặt phòng",
+    "switchTo": "English"
+  },
+  "demo": "Website demo · homestay không có thật · thực hiện bởi Dương Thành Nam",
+  "home": {
+    "kicker": "Đà Nẵng · 5 phút tới biển Mỹ Khê",
+    "heroTitle": "Chuyến đi Đà Nẵng bắt đầu từ đây",
+    "heroText": "Phòng dorm đầy nắng, phòng riêng yên tĩnh và sân thượng lúc nào cũng có bạn mới. Sáng lướt sóng, tối ăn vặt.",
+    "ctaRooms": "Xem phòng",
+    "ctaBook": "Đặt giường ngay",
+    "introTitle": "Không chỉ là chỗ ngủ",
+    "introText": "Noezz là homestay nhỏ ở An Thượng, khu phố Tây của Đà Nẵng. Bọn mình giúp bạn lên lịch trình, thuê xe máy và chỉ chỗ bánh mì ngon nhất.",
+    "highlights": [
+      { "title": "5 phút ra biển", "text": "Đi bộ ra biển Mỹ Khê. Mượn khăn tắm biển miễn phí ở quầy lễ tân." },
+      { "title": "Sân thượng mỗi tối", "text": "Bữa tối chung vào thứ Sáu, chơi game và ngắm hoàng hôn cùng khách khác." },
+      { "title": "Chủ nhà người địa phương", "text": "Hỏi gì cũng được, bằng tiếng Việt hay tiếng Anh. Hỗ trợ 24/7." }
+    ],
+    "roomsTitle": "Chọn phòng của bạn",
+    "roomsText": "Từ giường dorm giá rẻ đến phòng riêng yên tĩnh.",
+    "from": "từ",
+    "reviewsTitle": "Khách nói gì",
+    "reviewsLabel": "Đánh giá mẫu cho bản demo",
+    "reviews": [
+      { "name": "Lena", "from": "Đức", "text": "Sân thượng đẹp nhất Đà Nẵng. Định ở 2 đêm mà ở luôn 9 đêm." },
+      { "name": "Tom", "from": "Úc", "text": "Dorm sạch, Wi-Fi mạnh, chủ nhà lo xe máy cho mình trong 10 phút." },
+      { "name": "Mai", "from": "Hà Nội", "text": "Gần biển, giá hợp lý, chủ nhà rất nhiệt tình." }
+    ],
+    "bandTitle": "Sẵn sàng ra biển chưa?",
+    "bandText": "Gửi ngày bạn muốn ở. Bọn mình trả lời trong vài giờ."
+  },
+  "rooms": {
+    "title": "Phòng",
+    "intro": "Tất cả phòng đều có máy lạnh, Wi-Fi miễn phí và dọn phòng hằng ngày. Đã gồm bữa sáng.",
+    "perNight": "/ đêm",
+    "book": "Đặt phòng này",
+    "items": [
+      {
+        "id": "dorm",
+        "name": "Dorm 6 giường",
+        "price": "180.000đ",
+        "size": "6 giường · phòng tắm chung",
+        "text": "Giường tầng gỗ có rèm che, đèn đọc sách và tủ khoá riêng.",
+        "features": ["Rèm riêng tư", "Tủ khoá", "Sạc USB"]
+      },
+      {
+        "id": "double",
+        "name": "Phòng đôi riêng",
+        "price": "550.000đ",
+        "size": "1 giường lớn · phòng tắm riêng",
+        "text": "Phòng yên tĩnh cho cặp đôi, có ban công nhìn ra phố.",
+        "features": ["Ban công", "Nước nóng", "Smart TV"]
+      },
+      {
+        "id": "family",
+        "name": "Phòng gia đình",
+        "price": "850.000đ",
+        "size": "2 giường đôi · tối đa 4 khách",
+        "text": "Rộng rãi cho gia đình hoặc nhóm bạn, có tủ lạnh mini.",
+        "features": ["Tối đa 4 khách", "Tủ lạnh mini", "Thêm khăn tắm"]
+      }
+    ]
+  },
+  "experiences": {
+    "title": "Trải nghiệm",
+    "intro": "Những hoạt động bọn mình thích nhất quanh Đà Nẵng. Hỏi lễ tân, bọn mình sắp xếp giúp.",
+    "items": [
+      { "id": "beach", "title": "Bình minh ở Mỹ Khê", "distance": "5 phút đi bộ", "text": "Dậy sớm tắm biển hoặc học lướt sóng. Có cho mượn ván và khăn." },
+      { "id": "hoian", "title": "Đêm đèn lồng Hội An", "distance": "40 phút đi xe buýt", "text": "Đi nhóm hằng tuần ra phố cổ, ngắm đèn lồng và đi thuyền trên sông." },
+      { "id": "marble", "title": "Ngũ Hành Sơn", "distance": "15 phút đi xe máy", "text": "Leo hang động, thăm chùa rồi ngắm toàn thành phố từ trên cao." },
+      { "id": "motorbike", "title": "Thuê xe máy", "distance": "Ngay tại homestay", "text": "Xe tay ga hoặc xe số, kèm mũ bảo hiểm. Chinh phục đèo Hải Vân." }
+    ]
+  },
+  "contact": {
+    "title": "Đặt phòng",
+    "intro": "Điền ngày ở, bọn mình sẽ xác nhận qua WhatsApp hoặc email.",
+    "checkIn": "Nhận phòng",
+    "checkOut": "Trả phòng",
+    "guests": "Số khách",
+    "room": "Loại phòng",
+    "name": "Tên của bạn",
+    "message": "Lời nhắn (không bắt buộc)",
+    "sendWhatsapp": "Gửi qua WhatsApp",
+    "sendEmail": "Gửi qua email",
+    "errorDates": "Ngày trả phòng phải sau ngày nhận phòng.",
+    "errorRequired": "Vui lòng điền tên và cả hai ngày.",
+    "requestText": "Chào Noezz! Mình muốn đặt phòng",
+    "note": "Bản demo: nút sẽ mở WhatsApp hoặc ứng dụng email với nội dung điền sẵn. Không có đơn đặt phòng nào được gửi đi.",
+    "addressLabel": "Địa chỉ",
+    "address": "Khu An Thượng, Ngũ Hành Sơn, Đà Nẵng (giả định)",
+    "emailLabel": "Email",
+    "hoursLabel": "Lễ tân",
+    "hours": "24/7"
+  },
+  "footer": {
+    "tagline": "Homestay gần biển ở Đà Nẵng.",
+    "madeBy": "Website thực hiện bởi"
+  }
+}

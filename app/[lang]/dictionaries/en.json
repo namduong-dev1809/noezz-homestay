@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Noezz Homestay – Beach hostel in Da Nang",
+    "description": "Social homestay 5 minutes from My Khe beach, Da Nang. Dorms, private rooms and family rooms."
+  },
+  "nav": {
+    "home": "Home",
+    "rooms": "Rooms",
+    "experiences": "Experiences",
+    "contact": "Contact",
+    "book": "Book now",
+    "switchTo": "Tiếng Việt"
+  },
+  "demo": "Demo website · fictional business · built by Duong Thanh Nam",
+  "home": {
+    "kicker": "Da Nang · 5 min to My Khe beach",
+    "heroTitle": "Your Da Nang story starts here",
+    "heroText": "Sunny dorms, private rooms and a rooftop full of new friends. Surf in the morning, street food at night.",
+    "ctaRooms": "See rooms",
+    "ctaBook": "Book your bed",
+    "introTitle": "More than a bed",
+    "introText": "Noezz is a small, social homestay in An Thuong, the backpacker street of Da Nang. We help you plan trips, rent a motorbike and find the best bánh mì in town.",
+    "highlights": [
+      { "title": "5 min to the beach", "text": "Walk to My Khe beach with your board. Free beach towels at reception." },
+      { "title": "Rooftop every night", "text": "Family dinner on Fridays, games and sunset drinks with other travelers." },
+      { "title": "Local hosts", "text": "Ask us anything in English or Vietnamese. We help 24/7." }
+    ],
+    "roomsTitle": "Pick your room",
+    "roomsText": "From budget dorm beds to quiet private rooms.",
+    "from": "from",
+    "reviewsTitle": "What travelers say",
+    "reviewsLabel": "Sample reviews for this demo",
+    "reviews": [
+      { "name": "Lena", "from": "Germany", "text": "Best rooftop in Da Nang. I came for 2 nights and stayed 9." },
+      { "name": "Tom", "from": "Australia", "text": "Clean dorms, strong Wi-Fi and the hosts sorted my motorbike in 10 minutes." },
+      { "name": "Mai", "from": "Hanoi", "text": "Gần biển, giá hợp lý, chủ nhà rất nhiệt tình." }
+    ],
+    "bandTitle": "Ready for the beach?",
+    "bandText": "Send us your dates. We reply within a few hours."
+  },
+  "rooms": {
+    "title": "Rooms",
+    "intro": "All rooms have air conditioning, free Wi-Fi and daily cleaning. Breakfast is included.",
+    "perNight": "/ night",
+    "book": "Book this room",
+    "items": [
+      {
+        "id": "dorm",
+        "name": "6-bed mixed dorm",
+        "price": "€7",
+        "size": "6 beds · shared bathroom",
+        "text": "Wooden bunks with curtains, a reading light and a personal locker.",
+        "features": ["Privacy curtain", "Locker", "USB charger"]
+      },
+      {
+        "id": "double",
+        "name": "Private double",
+        "price": "€20",
+        "size": "1 queen bed · private bathroom",
+        "text": "A calm room for couples, with a balcony and a view of the street life.",
+        "features": ["Balcony", "Hot shower", "Smart TV"]
+      },
+      {
+        "id": "family",
+        "name": "Family room",
+        "price": "€32",
+        "size": "2 double beds · up to 4 guests",
+        "text": "Space for families or friends traveling together, with a mini fridge.",
+        "features": ["Up to 4 guests", "Mini fridge", "Extra towels"]
+      }
+    ]
+  },
+  "experiences": {
+    "title": "Experiences",
+    "intro": "Our favourite things to do around Da Nang. Ask at reception and we will set it up.",
+    "items": [
+      { "id": "beach", "title": "Sunrise at My Khe", "distance": "5 min walk", "text": "Wake up early for a swim or a surf lesson. We lend boards and towels." },
+      { "id": "hoian", "title": "Lantern night in Hoi An", "distance": "40 min by bus", "text": "Join our weekly group trip to the old town, lanterns and river boats." },
+      { "id": "marble", "title": "Marble Mountains", "distance": "15 min by motorbike", "text": "Climb the caves and pagodas, then see the city from the top." },
+      { "id": "motorbike", "title": "Motorbike rental", "distance": "From our door", "text": "Automatic or semi-auto bikes with helmets. Ride the Hai Van Pass." }
+    ]
+  },
+  "contact": {
+    "title": "Book your stay",
+    "intro": "Fill in your dates and we will confirm by WhatsApp or email.",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "guests": "Guests",
+    "room": "Room",
+    "name": "Your name",
+    "message": "Message (optional)",
+    "sendWhatsapp": "Send via WhatsApp",
+    "sendEmail": "Send via email",
+    "errorDates": "Check-out must be after check-in.",
+    "errorRequired": "Please fill in your name and both dates.",
+    "requestText": "Hi Noezz! Booking request",
+    "note": "Demo: the buttons open WhatsApp or your email app with the request filled in. No booking is sent.",
+    "addressLabel": "Address",
+    "address": "An Thuong area, Ngu Hanh Son, Da Nang (fictional)",
+    "emailLabel": "Email",
+    "hoursLabel": "Reception",
+    "hours": "24/7"
+  },
+  "footer": {
+    "tagline": "Beach homestay in Da Nang.",
+    "madeBy": "Website by"
+  }
+}
