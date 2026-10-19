@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getDictionary, getLocale } from "./dictionaries";
 import { photos } from "@/lib/photos";
 import Doodles from "@/components/Doodles";
+import TornEdge from "@/components/TornEdge";
 import RoomCard from "@/components/RoomCard";
 
 export default async function Home() {
@@ -16,7 +17,8 @@ export default async function Home() {
         <Image src={photos.hero} alt="" fill priority sizes="100vw" className="-z-20 object-cover" />
         <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink/85 via-ink/40 to-ink/20" />
         <Doodles />
-        <div className="relative mx-auto w-full max-w-6xl px-4 sm:px-6 pb-14 pt-32 text-white">
+        <TornEdge />
+        <div className="relative mx-auto w-full max-w-6xl px-4 sm:px-6 pb-20 sm:pb-28 pt-32 text-white">
           <p className="rise-in mb-4 inline-block rounded-full bg-coral px-4 py-1.5 text-sm font-bold">{t.kicker}</p>
           <h1 className="rise-in [--d:120ms] font-display uppercase leading-[0.95] text-5xl sm:text-7xl lg:text-8xl max-w-4xl">
             {t.heroTitle}
