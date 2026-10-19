@@ -4,6 +4,7 @@ import "../globals.css";
 import { getDictionary, getLocale, locales } from "./dictionaries";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import RevealOnScroll from "@/components/RevealOnScroll";
 
 const display = Anton({
   weight: "400",
@@ -31,8 +32,11 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
   const dict = await getDictionary();
 
   return (
-    <html lang={locale} className={`${display.variable} ${body.variable} antialiased`}>
+    // suppressHydrationWarning: the inline script below adds the "js" class before React hydrates
+    <html lang={locale} className={`${display.variable} ${body.variable} antialiased`} suppressHydrationWarning>
       <body className="min-h-screen flex flex-col font-sans">
+        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
+        <RevealOnScroll />
         <p className="bg-ink text-sand text-center text-xs py-2 px-4">{dict.demo}</p>
         <Header locale={locale} dict={dict} />
         <main className="flex-1">{children}</main>

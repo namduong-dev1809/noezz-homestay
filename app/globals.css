@@ -53,13 +53,22 @@ html:lang(vi) .font-display {
     animation-delay: var(--d, 0ms);
   }
 
-  /* fade up while scrolling into view; browsers without scroll timelines just show the content */
-  @supports (animation-timeline: view()) {
-    .reveal {
-      animation: rise linear both;
-      animation-timeline: view();
-      animation-range: entry 0% entry 70%;
-    }
+  /* fade up when scrolled into view; .js is set before paint so no-JS visitors still see everything */
+  .js .reveal:not(.in) {
+    opacity: 0;
+    transform: translateY(48px);
+  }
+  .js .reveal {
+    transition:
+      opacity 0.9s cubic-bezier(0.2, 0.7, 0.2, 1),
+      transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+  /* cards in a row come in one after another */
+  .js .reveal:nth-child(2) {
+    transition-delay: 0.12s;
+  }
+  .js .reveal:nth-child(3) {
+    transition-delay: 0.24s;
   }
 }
 
