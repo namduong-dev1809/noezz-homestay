@@ -17,7 +17,7 @@ export default function RoomCard({
   detailed?: boolean;
 }) {
   return (
-    <article className="flex flex-col overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-ink/5">
+    <article className="reveal flex flex-col overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-ink/5">
       <div className="relative aspect-[4/3]">
         <Image src={photos.rooms[room.id]} alt="" fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover" />
       </div>

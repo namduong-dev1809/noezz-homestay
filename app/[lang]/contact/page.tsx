@@ -15,7 +15,7 @@ export default async function Contact() {
         <Suspense>
           <BookingForm dict={dict} />
         </Suspense>
-        <aside className="grid content-start gap-6">
+        <aside className="reveal grid content-start gap-6">
           <dl className="grid gap-4 rounded-3xl bg-white p-6 ring-1 ring-ink/5">
             <div>
               <dt className="text-sm text-muted">{t.addressLabel}</dt>
