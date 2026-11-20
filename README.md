@@ -1,5 +1,7 @@
 # Noezz Homestay — demo website
 
+**Live demo: [noezz-homestay.vercel.app](https://noezz-homestay.vercel.app)**
+
 A bilingual (English / Vietnamese) website for a **fictional** beach homestay in Da Nang. Built as a portfolio demo of the kind of site I make for small hospitality businesses.
 
 > Noezz Homestay is not a real business. Reviews, prices, address and email are sample content. Photos are from [Unsplash](https://unsplash.com).
